@@ -1,7 +1,7 @@
 -- *** 1. BASIC UNDERSTANDING ***
 -- A. How many total records and unique members are in the dataset?
 
-
+<img width="332" height="78" alt="1" src="https://github.com/user-attachments/assets/fb98c551-d953-44ba-8b17-80437de81137" />
 
 SELECT COUNT(*) AS total_records, 
 		COUNT(DISTINCT bioname) AS unique_members
