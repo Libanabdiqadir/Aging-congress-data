@@ -5,9 +5,17 @@ This project analyzes data from the U.S. Congress dataset, which includes infrom
 The goal of this analysis is to explore patterns in political affiliation, longevity, and historical representation using SQL queries and PostgreSQL.
 
 # Tools Used
-. PostgreSQL
+1. PostgreSQL
 
-. pgAdmin 4
+2. PgAdmin 4
+
+## 💻 Project Setup
+
+To set up the database and run the analysis, follow these steps:
+
+1.  *Data Source:* Ensure the *congress_data.csv* file is in the project directory.
+2.  *Load Schema & Data:* Execute the entire setup_tables.sql file against your database. This file uses the COPY command to import data directly from congress_data.csv into the congress table.
+3.  *Run Queries:* Execute the commands in the queries.sql file to see the analysis results.
 
 
 # 📊 Questions Explored
