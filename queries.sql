@@ -1,6 +1,8 @@
 -- *** 1. BASIC UNDERSTANDING ***
 -- A. How many total records and unique members are in the dataset?
 
+
+
 SELECT COUNT(*) AS total_records, 
 		COUNT(DISTINCT bioname) AS unique_members
 FROM congress;
